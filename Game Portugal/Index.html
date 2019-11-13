@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Game Portugal</title>
+	<link rel="stylesheet" type="text/css" href="Css/estilo.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="Js/script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+	<style>
+	    p{
+  color: black;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 55px;
+}
+
+h2{
+  color: black;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+	</style>
+</head>
+<body>
+		
+		<div class="container-fluid" style="margin: 0; border: 0; padding: 0;" >
+		<nav class="navbar navbar-light" style="background-color: black; padding: 0;">
+				<a class="navbar-brand"  style="color: white; font-size:40px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;; font-weight: 100;">
+				
+						<img src="Img/JavaScript_Log.png" width="12%" alt="" style="margin-right:2%; margin:1%;margin-left: 5%;">
+					  JOGO DA MEMÓRIA
+				</a>
+			  </nav>
+		</div>
+			<br><br>
+			<br><br>
+			<center>
+				<p>
+    				Escolha uma carta abaixo e tente encontrar todos os escritores portuguêses.
+							
+						
+
+					
+				</p>
+			</center>
+
+			<br>
+			<br>
+<div style="margin-top: 30px">
+
+		<h2>Pontuação : <h2 id="pontuacao"> 0	</h2></h2>
+
+	</div>
+	
+	<div style="margin-top: 30px">
+
+		<h2>Tentativas restantes : <h2 id="tentativa"> 10</h2></h2>
+
+	</div>
+
+		<div class="d-flex p-1 bd-highlight" style="margin-top:5%">
+					<section class="jogo">
+							<div class="memory" data-framework="Fernando Pessoa">
+								<img class="parte_frente" src="Img/01.jpg" alt="Tras">
+								<img class="parte_tras" src="Img/09.png" alt="Frete">
+							</div>	
+							<div class="memory" data-framework="Fernando Pessoa">
+								<img class="parte_frente" src="Img/01.jpg" alt="Tras">
+								<img class="parte_tras" src="Img/09.png" alt="Frete">
+							</div>	
+							<div class="memory" data-framework="José Saramago">
+								<img class="parte_frente" src="Img/02.jpg" alt="Tras">
+								<img class="parte_tras" src="Img/09.png" alt="Frete">
+							</div>		
+							<div class="memory" data-framework="José Saramago">
+								<img class="parte_frente" src="Img/02.jpg" alt="Tras">
+								<img class="parte_tras" src="Img/09.png" alt="Frete">
+							</div>		
+							<div class="memory" data-framework="Gil Vicente">
+								<img class="parte_frente" src="Img/03.png" alt="Tras">
+								<img class="parte_tras" src="Img/09.png" alt="Frete">
+							</div>	
+							<div class="memory" data-framework="Gil Vicente">
+								<img class="parte_frente" src="Img/03.png" alt="Tras">
+								<img class="parte_tras" src="Img/09.png" alt="Frete">
+							</div>				
+							<div class="memory" data-framework="Luís de Camões">
+								<img class="parte_frente" src="Img/04.jpg" alt="Tras">
+								<img class="parte_tras" src="Img/09.png" alt="Frete">
+							</div>	
+							<div class="memory" data-framework="Luís de Camões">
+								<img class="parte_frente" src="Img/04.jpg" alt="Tras">
+								<img class="parte_tras" src="Img/09.png" alt="Frete">
+							</div>	
+							<div class="memory" data-framework="Antônio Viera">
+								<img class="parte_frente" src="Img/05.jpg" alt="Tras">
+								<img class="parte_tras" src="Img/09.png" alt="Frete">
+							</div>	
+							<div class="memory" data-framework="Antônio Viera" >
+								<img class="parte_frente" src="Img/05.jpg" alt="Tras">
+								<img class="parte_tras" src="Img/09.png" alt="Frete">
+							</div>	
+							<div class="memory" data-framework="Antônio Lobo Antunes">
+								<img class="parte_frente" src="Img/06.jpg" alt="Tras">
+								<img class="parte_tras" src="Img/09.png" alt="Frete">
+							</div>	
+							<div class="memory" data-framework="Antônio Lobo Antunes" >
+								<img class="parte_frente" src="Img/06.jpg" alt="Tras">
+								<img class="parte_tras" src="Img/09.png" alt="Frete">
+							</div>	
+						</section>
+			</div>
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	var carta_virando = new Audio("Sound/Som_Carta.wav");
+	var carta_certa = new Audio("Sound/Som_Certo.mp3");
+	var tentativa = 10;
+	var pontuacao = 0;
+	const cards = document.querySelectorAll('.memory');
+	let foiClicado  = false;
+	let bloquea = false;
+	let primeiro,segundo;
+	function flipcard(){
+		carta_virando.play();
+		if(bloquea){
+			return;	
+		} 
+		if(this === primeiro){
+			return;
+		}
+		this.classList.add('flip');
+
+		if(!foiClicado){
+			foiClicado = true;
+			primeiro = this;
+			return;
+		}
+		foiClicado = false;
+
+		segundo = this;
+		chequando();
+	}
+
+	function chequando(){	
+		let certo=primeiro.dataset.framework === segundo.dataset.framework;
+		certo ?  desativa(): naoDesativa();	
+		if(tentativa ==0 ){
+			setTimeout(() =>{
+				alert("Que pena você não conseguio\n mas pelo menos tentou e é isso que vale :) ");
+				window.location.reload();
+			}, 500);
+		}
+	}
+
+	function desativa() { 
+		document.getElementById("pontuacao").innerHTML= ++pontuacao;
+		setTimeout(() =>{
+			carta_certa.play();
+		}, 500);
+
+
+		if(pontuacao == 6 && tentativa == 1){
+			alert("Parabens você ganhou na ultima tentativa :)");
+			window.location.reload();
+		}
+		teste();
+		primeiro.removeEventListener('click', flipcard);
+		segundo.removeEventListener('click', flipcard);
+		reseta();
+
+	}
+	function naoDesativa(){
+		document.getElementById("tentativa").innerHTML=--tentativa;
+		bloquea = true;
+		setTimeout(() =>{
+			primeiro.classList.remove('flip');
+			segundo.classList.remove('flip');
+			bloquea =false;
+		}, 1000);
+	}
+	function reseta(){
+		[foiClicado,bloquea] =[false,false];
+	}
+	(function aleatorio(){
+		cards.forEach(card =>{
+			let random = Math.floor(Math.random() * 12);
+			card.style.order =random;
+		});
+	})();
+	function teste(){
+		if(pontuacao == 6){
+			setTimeout(() =>{
+				alert("Parabens você ganhou o jogo em "+(10-tentativa)+" tentativas :)");
+				window.location.reload();
+			}, 500);
+		}
+	}
+		cards.forEach(card=> card.addEventListener('click',flipcard));
+
+	</script>
+</script>
